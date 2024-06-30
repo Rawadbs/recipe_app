@@ -1,4 +1,4 @@
-# animateddemo
+# RecipeApp
 
 A new Flutter project.
 
