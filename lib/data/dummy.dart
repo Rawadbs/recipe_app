@@ -4,55 +4,59 @@ import 'package:flutter/material.dart';
 
 List<Category> availableCategories = [
   Category(
-    id: 'c1',
-    title: 'Italian',
-    color: Colors.purple,
-  ),
+      id: 'c1',
+      title: 'Italian',
+      imageUrll:
+          'https://img.freepik.com/free-vector/illustration-italy-flag_53876-27098.jpg'),
   Category(
     id: 'c2',
-    title: 'Quick & Easy',
-    color: Colors.red,
+    title: 'International',
+    imageUrll:
+        'https://img.freepik.com/free-vector/world-landmarks-set_1284-13903.jpg',
   ),
   Category(
     id: 'c3',
-    title: 'Hamburgers',
-    color: Colors.orange,
+    title: 'American',
+    imageUrll:
+        'https://img.freepik.com/free-vector/illustration-usa-flag_53876-18165.jpg',
   ),
-  Category(
-    id: 'c4',
-    title: 'German',
-    color: Colors.amber,
-  ),
-  Category(
-    id: 'c5',
-    title: 'Light & Lovely',
-    color: Colors.blue,
-  ),
-  Category(
-    id: 'c6',
-    title: 'Exotic',
-    color: Colors.green,
-  ),
+  // Category(
+  //   id: 'c4',
+  //   title: 'German',
+  //   color: Colors.amber,
+  // ),
+  // Category(
+  //   id: 'c5',
+  //   title: 'Light & Lovely',
+  //   color: Colors.blue,
+  // ),
+  // Category(
+  //   id: 'c6',
+  //   title: 'Exotic',
+  //   color: Colors.green,
+  // ),
   Category(
     id: 'c7',
     title: 'Breakfast',
-    color: Colors.lightBlue,
+    imageUrll:
+        'https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg',
   ),
   Category(
     id: 'c8',
     title: 'Asian',
-    color: Colors.lightGreen,
+    imageUrll: 'https://img.freepik.com/free-photo/flag-india_1401-132.jpg',
   ),
   Category(
     id: 'c9',
     title: 'French',
-    color: Colors.pink,
+    imageUrll:
+        'https://img.freepik.com/free-vector/illustration-france-flag_53876-27099.jpg',
   ),
-  Category(
-    id: 'c10',
-    title: 'Summer',
-    color: Colors.teal,
-  ),
+  // Category(
+  //   id: 'c10',
+  //   title: 'Summer',
+  //   color: Colors.teal,
+  // ),
 ];
 
 const dummyMeals = [

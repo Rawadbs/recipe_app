@@ -59,8 +59,8 @@ class _CategoriesSceenState extends State<CategoriesSceen>
       child: GridView(
         padding: const EdgeInsets.all(24),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          childAspectRatio: 3 / 2,
+          crossAxisCount: 1,
+          childAspectRatio: 4 / 2.3,
           crossAxisSpacing: 20,
           mainAxisSpacing: 20,
         ),
